@@ -1,0 +1,43 @@
+==================================================
+   LLM SUPPORT TICKET AUTO-TAGGING EVALUATION     
+==================================================
+
+=== ZERO-SHOT CLASSIFICATION REPORT (Top-1) ===
+                                 precision    recall  f1-score   support
+
+              Technical Support       0.48      0.84      0.62        19
+          Returns and Exchanges       0.00      0.00      0.00         4
+           Billing and Payments       1.00      1.00      1.00         4
+            Sales and Pre-Sales       0.00      0.00      0.00         3
+Service Outages and Maintenance       1.00      0.33      0.50         3
+                Product Support       0.00      0.00      0.00         5
+                     IT Support       0.00      0.00      0.00         4
+               Customer Service       0.00      0.00      0.00         6
+                Human Resources       0.00      0.00      0.00         1
+                General Inquiry       0.00      0.00      0.00         1
+
+                      micro avg       0.50      0.42      0.46        50
+                      macro avg       0.25      0.22      0.21        50
+                   weighted avg       0.32      0.42      0.34        50
+
+=== FEW-SHOT CLASSIFICATION REPORT (Top-1) ===
+                                 precision    recall  f1-score   support
+
+              Technical Support       0.40      0.11      0.17        19
+          Returns and Exchanges       1.00      0.25      0.40         4
+           Billing and Payments       1.00      1.00      1.00         4
+            Sales and Pre-Sales       0.00      0.00      0.00         3
+Service Outages and Maintenance       0.25      1.00      0.40         3
+                Product Support       0.06      0.20      0.10         5
+                     IT Support       0.14      0.25      0.18         4
+               Customer Service       0.33      0.17      0.22         6
+                Human Resources       0.00      0.00      0.00         1
+                General Inquiry       0.00      0.00      0.00         1
+
+                      micro avg       0.27      0.26      0.26        50
+                      macro avg       0.32      0.30      0.25        50
+                   weighted avg       0.38      0.26      0.25        50
+
+=== TOP-3 ARCHITECTURAL METRICS ===
+Zero-Shot Top-3 Inclusion Accuracy: 44.00%
+Few-Shot Top-3 Inclusion Accuracy:  42.00%
